@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TIPAS FOODCOURT KIOSK
+</name>
+</assembly>
+<members>
+<member name="T:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources._12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.ADMIN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.ADMIN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.Administrator_Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.asdasd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.DASH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.DASHBOARD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.LOGO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.MERCHANT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.QUAN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.QUAN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.TIPAS_FOODCOURT_KIOSK__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TIPAS_FOODCOURT_KIOSK.My.Resources.Resources.UI_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

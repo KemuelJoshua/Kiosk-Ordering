@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41B3BE0C-33E2-44FC-8D2E-58618D68242B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TIPAS_FOODCOURT_KIOSK.My.MyApplication</StartupObject>
+    <RootNamespace>TIPAS_FOODCOURT_KIOSK</RootNamespace>
+    <AssemblyName>TIPAS FOODCOURT KIOSK</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TIPAS FOODCOURT KIOSK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TIPAS FOODCOURT KIOSK.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MessagingToolkit.Barcode">
+      <HintPath>..\BG\BarcodeVS_waredata.com\MessagingToolkit.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCOUNT_REG.Designer.vb">
+      <DependentUpon>ACCOUNT_REG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACCOUNT_REG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACC_REG.Designer.vb">
+      <DependentUpon>ACC_REG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACC_REG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINLOGIN.Designer.vb">
+      <DependentUpon>ADMINLOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINLOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePass.Designer.vb">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD.Designer.vb">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="databaseACCOUNT.Designer.vb">
+      <DependentUpon>databaseACCOUNT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="databaseACCOUNT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOODMENU.Designer.vb">
+      <DependentUpon>FOODMENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FOODMENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENUmerchant.Designer.vb">
+      <DependentUpon>MENUmerchant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENUmerchant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MerchantMenuConnection.vb" />
+    <Compile Include="MERCHANT_LOGIN.Designer.vb">
+      <DependentUpon>MERCHANT_LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MERCHANT_LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACCOUNT_REG.resx">
+      <DependentUpon>ACCOUNT_REG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACC_REG.resx">
+      <DependentUpon>ACC_REG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINLOGIN.resx">
+      <DependentUpon>ADMINLOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePass.resx">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASHBOARD.resx">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="databaseACCOUNT.resx">
+      <DependentUpon>databaseACCOUNT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOODMENU.resx">
+      <DependentUpon>FOODMENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENUmerchant.resx">
+      <DependentUpon>MENUmerchant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MERCHANT_LOGIN.resx">
+      <DependentUpon>MERCHANT_LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdasd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TIPAS FOODCOURT KIOSK %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrator Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMIN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+    <None Include="Resources\MERCHANT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UI-BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DASHBOARD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DASH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUAN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
